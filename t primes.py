@@ -1,4 +1,3 @@
-
 def solution(n):
     lst = []
     lst = list(map(int, input().split()[:n]))
