@@ -1,10 +1,8 @@
 
 def solution(n):
     lst = []
-    for i in range(1,n+1,1):
-        lst_input = int(input())
-        lst.append(lst_input)
-    
+    lst = list(map(int, input().split()[:n]))
+
     for i in lst:
             flag = 0
             for j in range(2,i,1):
